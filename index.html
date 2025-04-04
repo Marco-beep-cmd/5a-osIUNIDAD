@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colores Primarios en Inglés</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0; padding: 0;
+    }
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 15px;
+    }
+    header {
+      background-color: #ffcc66;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #ff6600;
+      font-size: 2.2rem;
+      margin: 0;
+    }
+    h2 {
+      color: #3366cc;
+      font-size: 1.8rem;
+      border-bottom: 3px dotted #3366cc;
+      padding-bottom: 10px;
+    }
+    .color-section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    .activity {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    .color-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .color-box {
+      width: 80px;
+      height: 80px;
+      border: 3px solid #333;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .color-box:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+    .color-name {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .exercise {
+      background-color: #e6f7ff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    .instructions {
+      background-color: #ffffcc;
+      padding: 15px;
+      border-radius: 10px;
+      border-left: 5px solid #ffcc00;
+      margin-bottom: 20px;
+    }
+    button {
+      margin-top: 10px;
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #ffcc66;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    @media (max-width: 768px) {
+      .color-box {
+        width: 70px;
+        height: 70px;
+      }
+      button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>¡Aprendamos los Colores Primarios en Inglés!</h1>
+      <p>Descubre los colores mágicos que forman todos los demás</p>
+      <h1>PROFESOR MARCO</h1>
+      <img src="MARCO.png" alt="Profesor Marco">
+    </header>
+
+    <div class="color-section">
+      <h2>Colores Primarios</h2>
+      <p>Los colores primarios no se pueden obtener mezclando otros colores. ¡Son la base para crear muchos más!</p>
+      <div class="activity">
+        <div class="color-item">
+          <div class="color-box" style="background-color: #ff0000;"></div>
+          <p class="color-name">RED</p>
+        </div>
+        <div class="color-item">
+          <div class="color-box" style="background-color: #0000ff;"></div>
+          <p class="color-name">BLUE</p>
+        </div>
+        <div class="color-item">
+          <div class="color-box" style="background-color: #ffff00;"></div>
+          <p class="color-name">YELLOW</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <h2>¡Pon a prueba tus conocimientos!</h2>
+      <h3>Ejercicio 1: ¿Cuáles son los colores primarios?</h3>
+      <div class="instructions">
+        <p>Haz clic en los botones para comprobar tu respuesta.</p>
+      </div>
+      <div class="activity">
+        <div class="color-item">
+          <div class="color-box" style="background-color: #ff0000;"></div>
+          <p class="color-name">RED</p>
+          <button onclick="alert('¡Correcto! RED es un color primario.')">Comprobar</button>
+        </div>
+        <div class="color-item">
+          <div class="color-box" style="background-color: #0000ff;"></div>
+          <p class="color-name">BLUE</p>
+          <button onclick="alert('¡Correcto! BLUE es un color primario.')">Comprobar</button>
+        </div>
+        <div class="color-item">
+          <div class="color-box" style="background-color: #ffff00;"></div>
+          <p class="color-name">YELLOW</p>
+          <button onclick="alert('¡Correcto! YELLOW es un color primario.')">Comprobar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <h3>Ejercicio 2: Identifica los colores primarios</h3>
+      <div class="activity">
+        <div class="color-item">
+          <div class="color-box" style="background-color: #ff0000;"></div>
+          <p class="color-name">RED</p>
+        </div>
+        <div class="color-item">
+          <div class="color-box" style="background-color: #0000ff;"></div>
+          <p class="color-name">BLUE</p>
+        </div>
+        <div class="color-item">
+          <div class="color-box" style="background-color: #ffff00;"></div>
+          <p class="color-name">YELLOW</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <h3>Ejercicio 3: ¿Es el BROWN un color primario?</h3>
+      <div class="activity">
+        <div class="color-item">
+          <div class="color-box" style="background-color: #8b4513;"></div>
+          <p class="color-name">BROWN</p>
+          <button onclick="alert('¡Incorrecto! BROWN no es un color primario.')">Comprobar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <h3>Ejercicio 4: ¿Es el VIOLET un color primario?</h3>
+      <div class="activity">
+        <div class="color-item">
+          <div class="color-box" style="background-color: #800080;"></div>
+          <p class="color-name">VIOLET</p>
+          <button onclick="alert('¡Incorrecto! VIOLET no es un color primario.')">Comprobar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <h3>Ejercicio 5: ¿Es el ORANGE un color primario?</h3>
+      <div class="activity">
+        <div class="color-item">
+          <div class="color-box" style="background-color: #ffa500;"></div>
+          <p class="color-name">ORANGE</p>
+          <button onclick="alert('¡Incorrecto! ORANGE no es un color primario.')">Comprobar</button>
+        </div>
+      </div>
+    </div>
+    <div class="exercise">
+        <h3>Ejercicio 6: ¿Es el GREEN un color secundario?</h3>
+        <div class="activity">
+          <div class="color-item">
+            <div class="color-box" style="background-color: #00aa41;"></div>
+            <p class="color-name">GREEN</p>
+            <button onclick="alert('¡Incorrecto! GREEN es un color secundario.')">Comprobar</button>
+          </div>
+        </div>
+      </div>
+
+    <div class="exercise">
+      <h3>Ejercicio 7: ¿Cómo se dice este color en español?</h3>
+      <div class="activity">
+        <div class="color-item">
+          <div class="color-box" style="background-color: #ff0000;"></div>
+          <p class="color-name">RED</p>
+          <button onclick="alert('¡Correcto! RED en español es ROJO.')">Comprobar</button>
+        </div>
+        <div class="color-item">
+          <div class="color-box" style="background-color: #0000ff;"></div>
+          <p class="color-name">BLUE</p>
+          <button onclick="alert('¡Correcto! BLUE en español es AZUL.')">Comprobar</button>
+        </div>
+        <div class="color-item">
+            <div class="color-box" style="background-color: #00ff2a;"></div>
+            <p class="color-name">GREEN</p>
+            <button onclick="alert('¡Correcto! GREEN en español es VERDE.')">Comprobar</button>
+          </div>
+        <div class="color-item">
+          <div class="color-box" style="background-color: #ffff00;"></div>
+          <p class="color-name">YELLOW</p>
+          <button onclick="alert('¡Correcto! YELLOW en español es AMARILLO.')">Comprobar</button>
+       </div>
+        <div class="color-item">
+            <div class="color-box" style="background-color: #ff9100;"></div>
+            <p class="color-name">ORANGE</p>
+            <button onclick="alert('¡Correcto! ORNAGE en español es NARANJA.')">Comprobar</button>
+          </div>
+          <div class="color-item">
+            <div class="color-box" style="background-color: #7700ff;"></div>
+            <p class="color-name">VIOLET</p>
+            <button onclick="alert('¡Correcto! VIOLET en español es VIOLETA.')">Comprobar</button>
+          </div>
+          <div class="color-item">
+            <div class="color-box" style="background-color: #ffffff;"></div>
+            <p class="color-name">WHITE</p>
+            <button onclick="alert('¡Correcto! WHITE en español es BLANCO.')">Comprobar</button>
+          </div>
+          <div class="color-item">
+            <div class="color-box" style="background-color: #000000;"></div>
+            <p class="color-name">BLACK</p>
+            <button onclick="alert('¡Correcto! BLACK en español es NEGRO.')">Comprobar</button>
+          </div>
+          <div class="color-item">
+            <div class="color-box" style="background-color: #743400;"></div>
+            <p class="color-name">BROWN</p>
+            <button onclick="alert('¡Correcto! BROWN en español es CAFE.')">Comprobar</button>
+          </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2025 Profesor Marco – Todos los derechos reservados</p>
+    </footer>
+  </div>
+</body>
+</html>
